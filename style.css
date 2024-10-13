@@ -7,8 +7,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #d3d3d3; /* Very light gray */
-    padding-bottom: 50px; /* Prevents content from being hidden behind the footer */
+    background-color: #d3d3d3;
+    padding-bottom: 50px;
 }
 
 header {
@@ -68,6 +68,7 @@ footer {
     margin: 20px 0;
     background-color: #f9f9f9;
     transition: background-color 0.3s ease;
+    border-radius: 10px;
 }
 
 .article-box a {
@@ -89,10 +90,9 @@ footer {
 }
 
 h2 {
-    margin: 30px 0; /* Adjust this value to increase or decrease spacing */
+    margin: 30px 0;
 }
 
-/* You can also add a similar rule for other heading levels if needed */
 h3, h4, h5 {
-    margin: 20px 0; /* Adjust margins for other headings as necessary */
+    margin: 20px 0;
 }
